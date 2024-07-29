@@ -1,5 +1,5 @@
 <div align="center">
-<img src="SpiderWeb.png" height=40% width=40%>
+<img src="SpiderWeb.png" height=30% width=30%>
 </div>
 <br>
 <div align="center">
