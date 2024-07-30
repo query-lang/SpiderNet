@@ -10,7 +10,7 @@
 
 ### Install the latest version from Pypi or the <a href="https://github.com/query-lang/SpiderWeb/releases/tag/SpiderWeb">releases page</a> 
 ```shell
-pip install SpiderWeb
+pip install SpiderNet
 ```
 - Features 
   - [x] Scrape tags from websites 
