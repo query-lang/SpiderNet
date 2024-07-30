@@ -12,3 +12,9 @@
 ```shell
 pip install SpiderWeb
 ```
+- Features 
+  - [x] Scrape tags from websites 
+  - [x] Scrape the text within the tags
+  - [x] Obtain href attributes for the <a> tag (anchor tag)
+  - [x] Obtain src attribute for the <img> tag (image tag)
+
