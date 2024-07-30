@@ -17,4 +17,5 @@ pip install SpiderWeb
   - [x] Scrape the text within the tags
   - [x] Obtain href attributes for the <a> tag (anchor tag)
   - [x] Obtain src attribute for the <img> tag (image tag)
+  - [x] The package contains new <a href="https://github.com/query-lang/SpiderWeb/tree/main/examples/DataTypes">Datatypes</a> made for easier workflow which integrate with the parameters and values of the package.  
 
