@@ -22,3 +22,6 @@ all_values=map.values()
 length=len(map) #returns the length of the hashmap
 
 # The HashMap is also Iterable through the builtin ForEach Loop. Look at for_each.py
+
+#You can also initialize the HashMap with an existing 'dict' datatype in python
+map_2=HashMap({1:'a',2:'b'})
