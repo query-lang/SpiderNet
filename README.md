@@ -19,3 +19,9 @@ pip install SpiderWeb
   - [x] Obtain src attribute for the <img> tag (image tag)
   - [x] The package contains new <a href="https://github.com/query-lang/SpiderWeb/tree/main/examples/DataTypes">Datatypes</a> made for easier workflow which integrate with the parameters and values of the package.  
 
+### The main class is ```GenSpider``` . 
+
+```python
+from SpiderWeb import GenSpider
+web=GenSpider(<website>)
+```
