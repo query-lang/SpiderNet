@@ -88,8 +88,8 @@ Chakra The Invincible 001 (2015) => https://readallcomics.com/chakra-the-invinci
 
 <p>For more examples look at : </p>
 <ul>
-  <li><a href="https://github.com/query-lang/SpiderWeb/tree/main/examples/web"></a>Web Scraping code examples</li>
-  <li><a href="https://github.com/query-lang/SpiderWeb/tree/main/examples/DataTypes"></a>Data Types code examples</li>
+  <li><a href="https://github.com/query-lang/SpiderWeb/tree/main/examples/web">Web Scraping code examples</a></li>
+  <li><a href="https://github.com/query-lang/SpiderWeb/tree/main/examples/DataTypes">Data Types code examples</a></li>
   
 </ul>
 
