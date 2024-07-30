@@ -47,7 +47,7 @@ web=GenSpider(<website>)
 </ol>
 <br>
 
-## Example code of extracting Comic Book Chapters from <a>readallcomics</a> , using the new DataTypes , and their respective href attributes 
+### Example code of extracting Comic Book Chapters from <a href="https://readallcomics.com/">readallcomics</a> , using the new DataTypes , and their respective href attributes 
 
 ```python
 from SpiderWeb import HashMap , ForEach , GenSpider , Str
