@@ -6,7 +6,7 @@
 <p>A simple and lightweight library for scraping the web</p>
 </div>
 <br>
-<p>Built on Curl and Regex in python , SpiderWeb offers similar functionality to the (BeautifulSoup and requests) alternative . For the package to work , you need to have <a href="https://help.ubidots.com/en/articles/2165289-learn-how-to-install-run-curl-on-windows-macosx-linux">curl</a> installed in your system . </p>
+<p>Built on Curl and Regex in python , SpiderNet offers similar functionality to the (BeautifulSoup and requests) alternative . For the package to work , you need to have <a href="https://help.ubidots.com/en/articles/2165289-learn-how-to-install-run-curl-on-windows-macosx-linux">curl</a> installed in your system . </p>
 
 ### Install the latest version from Pypi or the <a href="https://github.com/query-lang/SpiderWeb/releases/tag/SpiderWeb">releases page</a> 
 ```shell
@@ -22,7 +22,7 @@ pip install SpiderWeb
 ### The main class is ```GenSpider``` . 
 
 ```python
-from SpiderWeb import GenSpider
+from SpiderNet import GenSpider
 web=GenSpider(<website>)
 ```
 ### The methods are 
@@ -50,7 +50,7 @@ web=GenSpider(<website>)
 ### Example code of extracting Comic Book Chapters from <a href="https://readallcomics.com/">readallcomics</a> , using the new DataTypes , and their respective href attributes 
 
 ```python
-from SpiderWeb import HashMap , ForEach , GenSpider , Str
+from SpiderNet import HashMap , ForEach , GenSpider , Str
 
 
 string=Str("https://readallcomics.com/category/chakra-the-invincible/")
