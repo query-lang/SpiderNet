@@ -45,3 +45,43 @@ web=GenSpider(<website>)
 
   </ul>
 </ol>
+<br>
+
+## Example code of extracting Comic Book Chapters from <a>readallcomics</a> , using the new DataTypes , and their respective href attributes 
+
+```python
+from SpiderWeb import HashMap , ForEach , GenSpider , Str
+
+
+string=Str("https://readallcomics.com/category/chakra-the-invincible/")
+web=GenSpider(string)
+x=web.find_all_tags_by_classname('ul','list-story')
+arr=HashMap()
+for d in x:
+  
+    w=web.find_all_html_tags('a',text=d)
+    num=1
+    link_content=web.get_href_from_a_tags(text=d)
+    for y in range(len(w)):
+        text_content = web.extract_text_from_html(w[y])
+        
+        arr.add(text_content,link_content[y])
+        num+=1
+
+ForEach(arr).unit()
+```
+
+### The output of the code will be as follows 
+```shell
+Chakra The Invincible 010 (2016) => https://readallcomics.com/chakra-the-invincible-010-2016/
+Chakra The Invincible 009 (2016) => https://readallcomics.com/chakra-the-invincible-009-2016/
+Chakra The Invincible 008 (2016) => https://readallcomics.com/chakra-the-invincible-008-2016/
+Chakra The Invincible 007 (2016) => https://readallcomics.com/chakra-the-invincible-007-2016/
+Chakra The Invincible 006 (2015) => https://readallcomics.com/chakra-the-invincible-006-2015/
+Chakra The Invincible 005 (2015) => https://readallcomics.com/chakra-the-invincible-005-2015/
+Chakra The Invincible 004 (2015) => https://readallcomics.com/chakra-the-invincible-004-2015/
+Chakra The Invincible 003 (2015) => https://readallcomics.com/chakra-the-invincible-003-2015/
+Chakra The Invincible 002 (2015) => https://readallcomics.com/chakra-the-invincible-002-2015/
+Chakra The Invincible 001 (2015) => https://readallcomics.com/chakra-the-invincible-001-2015/
+```
+
