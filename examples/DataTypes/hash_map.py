@@ -1,5 +1,5 @@
 
-from SpiderWeb import HashMap
+from SpiderNet import HashMap
 
 # Adding key and value to HashMap
 map=HashMap()
