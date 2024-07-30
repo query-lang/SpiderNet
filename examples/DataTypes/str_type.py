@@ -1,4 +1,4 @@
-from SpiderWeb import Str 
+from SpiderNet import Str 
 
 #You can either initialize a Str through declaration or leave it empty 
 integer=Str() #leave blank
