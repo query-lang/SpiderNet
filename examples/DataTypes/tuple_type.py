@@ -1,4 +1,4 @@
-from SpiderWeb import Tuple
+from SpiderNet import Tuple
 # We can Initialize the tuple , either leaving it empty or passing a list through it 
 tuple=Tuple() #leave empty
 # or
