@@ -1,4 +1,4 @@
-from SpiderWeb import Array
+from SpiderNet import Array
 # We can Initialize the Array , either leaving it empty or passing a list through it 
 array=Array() #leave empty
 # or
