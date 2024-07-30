@@ -16,13 +16,13 @@ class ForEach:
         param_type_str = str(type(self.param))
         
         match param_type_str:
-            case '<class \'SpiderWeb.data_types.d_types.Array\'>':
+            case '<class \'SpiderNet.data_types.d_types.Array\'>':
                 for t in self.param:
                     print(t)
-            case '<class \'SpiderWeb.data_types.d_types.Tuple\'>':
+            case '<class \'SpiderNet.data_types.d_types.Tuple\'>':
                 for t in self.param:
                     print(t)
-            case '<class \'SpiderWeb.data_types.d_types.HashMap\'>':
+            case '<class \'SpiderNet.data_types.d_types.HashMap\'>':
                 for k, v in self.param.items():
                     print(f"{k} => {v}")  
             case '<class \'list\'>':
