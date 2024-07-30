@@ -1,4 +1,4 @@
-from SpiderWeb import Int 
+from SpiderNet import Int 
 
 #You can either initialize an Integer through declaration or leave it empty 
 integer=Int() #leave blank
