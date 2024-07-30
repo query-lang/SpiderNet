@@ -1,4 +1,4 @@
-from SpiderWeb import HashMap , ForEach , GenSpider , Str
+from SpiderNet import HashMap , ForEach , GenSpider , Str
 
 
 string=Str("https://readallcomics.com/category/chakra-the-invincible/")
