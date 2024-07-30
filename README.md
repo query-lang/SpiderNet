@@ -25,3 +25,23 @@ pip install SpiderWeb
 from SpiderWeb import GenSpider
 web=GenSpider(<website>)
 ```
+### The methods are 
+<ol>
+  <ul>
+    <li><code>website_text</code></li>
+    This method returns the markup text of the website . <br>
+    <li><code>find_all_html_tags</code></li>
+    This method finds all html tags passed in the parameter. If the tags are nested then 
+    upon looping them you can add the 'text' keyword in the function to target the initial looped text . <br>
+    <li><code>extract_text_from_html</code></li>
+    This method extracts text from the looped instance of the tag! <br>
+    <li><code>find_all_tags_by_classname</code></li>
+    This method finds all html tags passed in the parameter with the given class only , also passed in the parameter. If the tags are nested then 
+        upon looping them you can add the 'text' keyword in the function to target the initial looped text. <br>
+    <li><code>get_href_from_a_tags</code></li>
+    Returns a list of all href attributes of anchor tag . Optional text parameter if you want to target a particualr text piece. Default is extracting href from the entire page.<br>
+    <li><code>get_src_from_img_tags</code></li>
+    Returns a list of all src attributes of img tag . Optional text parameter if you want to target a particualr text piece. Default is extracting src from the entire page.<br>
+
+  </ul>
+</ol>
