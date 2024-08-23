@@ -3,7 +3,7 @@
 </div>
 <br>
 <div align="center">
-<p>A simple and lightweight library for scraping the web [![Downloads](https://static.pepy.tech/badge/SpiderNet/week)](https://pepy.tech/project/SpiderNet)</p>
+<p>A simple and lightweight library for scraping the web ![Downloads](https://static.pepy.tech/badge/SpiderNet/week)(https://pepy.tech/project/SpiderNet)</p>
 </div>
 <br>
 <p>Built on Curl and Regex in python , SpiderNet offers similar functionality to the (BeautifulSoup and requests) alternative . For the package to work , you need to have <a href="https://help.ubidots.com/en/articles/2165289-learn-how-to-install-run-curl-on-windows-macosx-linux">curl</a> installed in your system . </p>
